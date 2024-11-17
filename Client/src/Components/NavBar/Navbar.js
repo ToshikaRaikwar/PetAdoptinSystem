@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="navbar-left">
-        <Link to="/profile" className="navbar-icon-link">
+        <Link to="/admin" className="navbar-icon-link">
           <FaUser /> {/* Profile Icon */}
         </Link>
         <h1 className="navbar-title">Pet Adoption System</h1>

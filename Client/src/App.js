@@ -9,6 +9,7 @@ import Pets from "./Components/Pets/Pets";
 import AdoptForm from "./Components/AdoptForm/AdoptForm";
 import AdminLogin from "./Components/AdminPanel/AdminLogin";
 import "./App.css";
+import Adoptpet from "./Components/Adoptpet/Adoptpet";
 
 const Layout = ({ children }) => (
   <>
@@ -30,6 +31,15 @@ const App = () => {
             </Layout>
           } 
         />
+        <Route 
+          path="/adoptpet" 
+          element={
+            <Layout>
+              <Adoptpet />
+            </Layout>
+          } 
+        />
+
         <Route 
           path="/services" 
           element={

@@ -14,7 +14,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link to="/adopt-pet" className="footer-link">
+            <Link to="/adoptpet" className="footer-link">
               <FaPaw /> {/* Paw Icon */}
             </Link>
           </li>
